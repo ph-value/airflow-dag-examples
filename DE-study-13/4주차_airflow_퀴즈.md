@@ -9,6 +9,8 @@
 변경해야하는가?
     -  `api` 섹션의 항목들을 수정한다.
     - `auth_backend`, `auth_backend_kwargs`, `default_timezone`, `expose_config`, `expose_metrics`, `expose_version`, `hide_paused_dags_by_default`, `worker_refresh_interval`, `worker_refresh_batch_size`, `page_size`,`max_page_limit`, `enable_proxy_fix` 항목이 있다.
+  
+   - api 섹션의 auth_backend를 airflow.api.auth.backend.basic_auth로 변경
 
 4. Variable에서 변수의 값이 encrypted가 되려면 변수의 이름에 어떤 단어들이
 들어가야 하는데 이 단어들은 무엇일까? :)
